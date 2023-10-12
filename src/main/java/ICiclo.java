@@ -1,7 +1,7 @@
 public interface ICiclo {
 
-    String getDadosMonitoramento();
-    String getDadosPlantio();
-    String getQualidade();
-    float getAproveitamento();
+    String getDadosMonitoramento(Funcionario funcionario);
+    String getDadosPlantio(Funcionario funcionario);
+    String getQualidade(Funcionario funcionario);
+    float getAproveitamento(Funcionario funcionario);
 }

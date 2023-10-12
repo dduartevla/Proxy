@@ -4,17 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8aa39a9f-d5a6-4c2f-936a-851cda2b0747" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Ciclo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/CicloProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Funcionario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ICiclo.java" afterDir="false" />
+    <list default="true" id="8aa39a9f-d5a6-4c2f-936a-851cda2b0747" name="Changes" comment="Commit inicial, cria as classes necessárias, faz a classe Ciclo e a interface.">
+      <change afterPath="$PROJECT_DIR$/src/test/java/CicloProxyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Ciclo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Ciclo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CicloProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CicloProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Funcionario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ICiclo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ICiclo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +23,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -51,6 +50,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
@@ -60,6 +61,75 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.CicloProxyTest.deveRetornarExcecaoFuncionarioNaoAutorizadoPlantio">
+    <configuration name="CicloProxyTest.deveReornarAproveitamento" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Proxy" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CicloProxyTest" />
+      <option name="METHOD_NAME" value="deveReornarAproveitamento" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CicloProxyTest.deveRetornarExcecaoFuncionarioNaoAutorizado" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Proxy" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CicloProxyTest" />
+      <option name="METHOD_NAME" value="deveRetornarExcecaoFuncionarioNaoAutorizado" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CicloProxyTest.deveRetornarExcecaoFuncionarioNaoAutorizadoMonitoramento" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Proxy" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CicloProxyTest" />
+      <option name="METHOD_NAME" value="deveRetornarExcecaoFuncionarioNaoAutorizadoMonitoramento" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CicloProxyTest.deveRetornarExcecaoFuncionarioNaoAutorizadoPlantio" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Proxy" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CicloProxyTest" />
+      <option name="METHOD_NAME" value="deveRetornarExcecaoFuncionarioNaoAutorizadoPlantio" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CicloProxyTest.deveRetornarExcecaoFuncionarioNaoAutorizadoQualidade" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Proxy" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CicloProxyTest" />
+      <option name="METHOD_NAME" value="deveRetornarExcecaoFuncionarioNaoAutorizadoQualidade" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CicloProxyTest.deveRetornarExcecaoFuncionarioNaoAutorizadoPlantio" />
+        <item itemvalue="JUnit.CicloProxyTest.deveRetornarExcecaoFuncionarioNaoAutorizadoMonitoramento" />
+        <item itemvalue="JUnit.CicloProxyTest.deveRetornarExcecaoFuncionarioNaoAutorizadoQualidade" />
+        <item itemvalue="JUnit.CicloProxyTest.deveRetornarExcecaoFuncionarioNaoAutorizado" />
+        <item itemvalue="JUnit.CicloProxyTest.deveReornarAproveitamento" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -68,8 +138,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1697143437086</updated>
-      <workItem from="1697143438195" duration="3067000" />
+      <workItem from="1697143438195" duration="6765000" />
     </task>
+    <task id="LOCAL-00001" summary="Commit inicial, cria as classes necessárias, faz a classe Ciclo e a interface.">
+      <option name="closed" value="true" />
+      <created>1697147329368</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1697147329368</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -77,5 +156,23 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Commit inicial, cria as classes necessárias, faz a classe Ciclo e a interface." />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit inicial, cria as classes necessárias, faz a classe Ciclo e a interface." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Ciclo.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/CicloProxy.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

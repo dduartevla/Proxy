@@ -22,31 +22,42 @@ public class Ciclo implements ICiclo{
         this.quantidadePerdida = quantidadePerdida;
     }
 
+    public Ciclo(int id){
+        this.id = id;
+        Ciclo objeto = BD.getCiclo(id);
+        this.dataPlantio = objeto.dataPlantio;
+        this.dataColheita = objeto.dataColheita;
+        this.dadosMonitoramento = objeto.dadosMonitoramento;
+        this.qualidade = objeto.qualidade;
+        this.quantidadePlantada = objeto.quantidadePlantada;
+        this.quantidadePerdida = objeto.quantidadePerdida;
+    }
+
     public int getId(){
         return this.id;
     }
 
 
     @Override
-    public String getDadosMonitoramento() {
+    public String getDadosMonitoramento(Funcionario funcionario) {
         return this.dadosMonitoramento;
     }
 
     @Override
-    public String getDadosPlantio() {
+    public String getDadosPlantio(Funcionario funcionario) {
         String dados = "";
         SimpleDateFormat dateFormate = new SimpleDateFormat("dd/MM/yyyy");
-        return "Plantio:" + dateFormate.format(this.dataPlantio +
-                " -> Colheita:" + dateFormate.format(this.dataColheita));
+        return "Plantio:" + dateFormate.format(this.dataPlantio) +
+                " -> Colheita:" + dateFormate.format(this.dataColheita);
     }
 
     @Override
-    public String getQualidade() {
+    public String getQualidade(Funcionario funcionario) {
         return this.qualidade;
     }
 
     @Override
-    public float getAproveitamento() {
-        return (this.quantidadePerdida/this.quantidadePlantada)*100;
+    public float getAproveitamento(Funcionario funcionario) {
+        return ((float) this.quantidadePerdida/(float)this.quantidadePlantada)*100;
     }
 }
